@@ -1,78 +1,111 @@
-:root{
-    --primary-color: #007bff;
-    --danger-color: #dc3545;
-    color-scheme: light dark;
+:root {
+  --primary-color: #007bff;
+  --danger-color: #dc3545;
+  color-scheme: light dark;
 }
 
-.set-blue-opacity{
-    background: rgba(36, 98, 230, 0.2);
+.set-blue-opacity {
+  background: rgba(36, 98, 230, 0.2);
 }
-.set-blue-opacity:hover{
-    background: rgba(36, 98, 230, 0.5);
+.set-blue-opacity:hover {
+  background: rgba(36, 98, 230, 0.5);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 0 auto;
-    box-shadow: #007bff 0px 10px 0px 0px, inset 0px 0px 10px 0px #007bff,
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: #007bff 0px 10px 0px 0px, inset 0px 0px 10px 0px #007bff,
     inset 0px 0px 10px 0px #007bff;
-    background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 input {
-    margin-bottom: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 input:focus {
-    outline: none;
-    border-color: var(--primary-color);
+  outline: none;
+  border-color: var(--primary-color);
 }
 
 label {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 
 .set-box-shadow {
-    box-shadow: #06b6d4 0px 0px 15px, inset rgba(0,163,255,0.8) 0px 0px 20px, #4d00ff 0px 0px 20px, #4d00ff 0px 0px 40px, #4d00ff 0px 0px 80px, #4d00ff 0px 0px 160px, #4d00ff 0px 0px 320px;
+  box-shadow: #06b6d4 0px 0px 15px, inset rgba(0, 163, 255, 0.8) 0px 0px 20px,
+    #4d00ff 0px 0px 20px, #4d00ff 0px 0px 40px, #4d00ff 0px 0px 80px,
+    #4d00ff 0px 0px 160px, #4d00ff 0px 0px 320px;
 }
 
+.set-box-shadow-2 {
+  box-shadow: inset rgba(0, 163, 255, 0.8) 0px 0px 20px,
+    inset #4d00ff 0px 0px 320px;
+}
 
 .set-box-shadow-onCompleted {
-    box-shadow: #06b6d4 0px 0px 15px, inset rgba(0,163,255,0.8) 0px 0px 20px, #4d00ff 0px 0px 20px, #4d00ff 0px 0px 40px;
+  box-shadow: #06b6d4 0px 0px 15px, inset rgba(0, 163, 255, 0.8) 0px 0px 20px,
+    #4d00ff 0px 0px 20px, #4d00ff 0px 0px 40px;
 }
 
 .set-box-shadow-onPending {
-    box-shadow: #0080ff 0px 0px 15px, inset rgba(255, 0, 88, 0.68) 0px 0px 20px, #ff1493 0px 0px 20px, rgb(0, 67, 255) 0px 0px 40px;
+  box-shadow: #0080ff 0px 0px 15px, inset rgba(255, 0, 88, 0.68) 0px 0px 20px,
+    #ff1493 0px 0px 20px, rgb(0, 67, 255) 0px 0px 40px;
 }
 
 .set-clip-path {
-    clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
+  clip-path: polygon(
+    74.1% 44.1%,
+    100% 61.6%,
+    97.5% 26.9%,
+    85.5% 0.1%,
+    80.7% 2%,
+    72.5% 32.5%,
+    60.2% 62.4%,
+    52.4% 68.1%,
+    47.5% 58.3%,
+    45.2% 34.5%,
+    27.5% 76.7%,
+    0.1% 64.9%,
+    17.9% 100%,
+    27.6% 76.8%,
+    76.1% 97.7%,
+    74.1% 44.1%
+  );
 }
 
 .set-bg-opacity {
-    background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .set-text-shadow {
-    text-shadow: 0px 0px 10px #06b6d4, 0px 0px 20px rgba(0,163,255,0.8), 0px 0px 20px #4d00ff, 0px 0px 40px #4d00ff;
+  text-shadow: 0px 0px 10px #06b6d4, 0px 0px 20px rgba(0, 163, 255, 0.8),
+    0px 0px 20px #4d00ff, 0px 0px 40px #4d00ff;
 }
 
-.test{
-    color: var(--primary-color);
+.test {
+  color: var(--primary-color);
 }
 
 .setSclollbar {
-    scrollbar-width: thin;
-    scrollbar-color: var(--primary-color) transparent;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) transparent;
 }
 
 .set-box-shadow-mix-blend-mode {
-    box-shadow: 0px 0px 15px #06b6d4, inset 0px 0px 15px rgba(0,163,255,0.8);
-    mix-blend-mode: screen;
+  box-shadow: 0px 0px 15px #06b6d4, inset 0px 0px 15px rgba(0, 163, 255, 0.8);
+  mix-blend-mode: screen;
+}
+
+.set-box-shadow-mix-blend-mode-hover {
+  mix-blend-mode: screen;
+}
+
+html {
+  scroll-behavior: smooth;
 }
